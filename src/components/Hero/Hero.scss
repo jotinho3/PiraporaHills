@@ -80,6 +80,10 @@
 
 
 
+
+
+
+
 @media (max-width: 692px) {
     .heroSection {
         flex-direction: column;
@@ -93,13 +97,19 @@
 
         h1 {
             font-size: 3rem !important;
+            color: #000 !important;
         }
+
+        h2, p {
+            color: #000 !important;
+        }
+        
     }
 
     .heroVideoBgMobile {
         display: block !important;
         position: absolute;
-        margin-bottom: 70rem;
+        margin-bottom: 88rem;
         width: 100%;
         z-index: -1;
 
