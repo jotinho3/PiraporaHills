@@ -1,0 +1,34 @@
+.frontal-card-section {
+    width: 100%;
+   
+ 
+
+    .frontal-card-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4rem;
+        margin-top: -1.5rem;
+        margin-bottom: 6rem;
+        z-index: 2;
+        
+
+
+        .frontal-card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #fff;
+            padding: 2rem;
+            gap: .5rem;
+            border-radius: 16px;
+            z-index: 2;
+
+            img {
+                width: 2.8rem;
+            }
+        }
+    }
+}
+

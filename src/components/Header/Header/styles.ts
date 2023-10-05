@@ -11,7 +11,7 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #333;
+  background-color: #444;
   color: #fff;
   z-index: 999;
 `;

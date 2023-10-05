@@ -1,0 +1,55 @@
+$mobile-breakpoint: 692px;
+
+.ThreeTower-section {
+    width: 100%;
+    display: flex;
+    gap: 10rem;
+    flex-direction: column;
+    background-color: #333;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+
+    .ThreeTower-flex {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+
+
+        .ThreeTower-textDiv {
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            color: #fff;
+
+            @media (max-width: $mobile-breakpoint) {
+                width: 90%;
+                
+            }
+
+            h2 {
+                padding-left: 2rem;
+                border-left: solid 4px #00f58b;
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 1.3rem;
+                color: #8c8c8c;
+            }
+        }
+
+        .ThreeTower-imgDiv {
+            img {
+                width: 30rem;
+                @media (max-width: $mobile-breakpoint) {
+                    width: 90%;
+                    
+                }
+            }
+        }
+        
+    }
+}
